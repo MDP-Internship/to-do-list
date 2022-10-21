@@ -43,4 +43,14 @@ input[type=text]{
     border-radius: 15px;
     border-style: solid;
     padding: 10px;
+    text-align: center;
+}
+
+.calendarButton{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin:20px;
+    margin-right: 50px;
 }
