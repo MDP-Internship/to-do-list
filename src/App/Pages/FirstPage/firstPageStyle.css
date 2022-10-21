@@ -1,0 +1,46 @@
+.generalContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.addTask{
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 9px;
+}
+
+.button{
+    height: 40px;
+    width: 40px; 
+    margin-left: 20px; 
+    border-radius: 50%; 
+    font-weight: bold; 
+}
+
+input[type=text]{
+    width: 300px;
+    min-height: 40px;
+    padding: 3px;
+    padding-left: 9px;
+    border-radius: 15px;
+
+}
+
+.showList{
+    margin: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.listElement{
+    justify-content: flex-start;
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 10px;
+}
